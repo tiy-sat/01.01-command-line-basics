@@ -1,0 +1,20 @@
+/*
+  Spacing CSS
+*/
+
+.marginTop--base {
+  margin-top: 1.5rem;
+}
+
+.marginTop--small {
+  margin-top: 1rem;
+}
+
+.marginTop--medium {
+  margin-top: 2rem;
+}
+
+.marginVert--medium {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}

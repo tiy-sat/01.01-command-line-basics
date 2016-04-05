@@ -1,0 +1,37 @@
+/*
+  Utilities CSS
+*/
+
+/* 
+  Only want to modify the layout for
+  for the search block inside of header
+*/
+
+.header .search{
+  display: inline-block
+}
+
+.header nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header nav a {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.4rem;
+  color: inherit;
+}
+
+.header i {
+  color: rgb(166, 166, 166);
+  font-size: 2.4rem;
+}
+
+.header i {
+  margin-right: 1.2rem;
+}
+
+.header i:first-child {
+  margin-right: 2.2rem;
+}
