@@ -1,0 +1,11 @@
+/*
+  Navigation CSS
+*/
+
+.nav--global {
+  line-height: 3.5rem
+}
+
+.nav--global a {
+  margin-right: 2rem;
+}

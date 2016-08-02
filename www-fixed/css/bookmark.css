@@ -1,0 +1,84 @@
+/*
+  Base CSS
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html  {
+  /* 
+     Allows use of REM at .1rem to 
+     1px conversion rate
+  */
+  font-size: 62.5%;
+  font-family: "helvetica", sans-serif;
+}
+
+body {
+  /* Resetting default value */
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 142, 225);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.page--constraint {
+  width: 96rem; /* 1920px / 2 */
+}
+
+.page--centered {
+  margin: 0 auto;
+}
+
+.lineHeight--base {
+  line-height: 3.5rem;
+}
+
+.textAlign--right {
+  text-align: right;
+}
+
+.textAlign--center {
+  text-align: center;
+}
+
+.textTransform--uppercase {
+  text-transform: uppercase;
+}
+
+.verticalAlign--middle {
+  vertical-align: middle;
+}
+
+.link--primary {
+  color: rgb(166, 166, 166);
+  display: inline-block;
+}
+
+.brand {
+  width: 100px;
+  height: 35px;
+}
+
+hr {
+  background-color: rgb(233, 233, 233);
+}
+
+.border__top--light {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgb(233, 233, 233);
+}
+
+.hide--text {
+  visibility: hidden;
+  font-size: 0;
+  display: block;
+}
