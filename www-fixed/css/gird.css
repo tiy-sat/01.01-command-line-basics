@@ -1,0 +1,39 @@
+/*
+  Grid CSS
+*/
+
+.grid__row {
+  font-size: 0;
+}
+
+[class*='grid__col'] {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+.grid__col--bleed {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.grid__col--bleedRight {
+  padding-right: 0;
+}
+
+.grid__col--bleedLeft {
+  padding-left: 0;
+}
+
+.grid__col--half {
+  width: 50%;
+}
+
+.grid__col--twoThirds {
+  width: 66.66%;
+}
+
+.grid__col--oneThird {
+  width: 33.33%;
+}
