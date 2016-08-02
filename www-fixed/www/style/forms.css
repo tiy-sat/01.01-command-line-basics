@@ -1,0 +1,23 @@
+/*
+  Forms CSS
+*/
+
+.search {
+  font-size: 0;
+  vertical-align: top;
+}
+
+.search__textInput{
+  width: 41rem; /* 810px / 2 */
+  height: 3.5rem;
+}
+
+input[type='submit'] {
+  appearance
+  -webkit-appearance: none;
+  border: none;
+  background-color: rgb(232, 29, 130);
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  height: 3.5rem;
+}

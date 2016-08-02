@@ -1,0 +1,26 @@
+/*
+  Pagination CSS
+*/
+
+[class*="pagination__link"] {
+  color: black;
+  font-size: 1.4rem;
+  padding-bottom: 1.2rem;
+  display: inline-block;
+}
+
+.pagination__arrowLeft,
+.pagination__arrowRight {
+  font-size: 1.8rem;
+  color: rgb(0, 141, 223);
+  padding: 1.2rem 1.4rem;
+  background-color: white;
+}
+
+.pagination__linkTotal {
+  opacity: 0.5
+}
+
+.pagination__arrows {
+  font-size: 0;
+}

@@ -1,0 +1,13 @@
+/*
+  Footer CSS
+*/
+
+.footer--main {
+  margin-top: 10rem;
+}
+
+.footer--main a{
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
