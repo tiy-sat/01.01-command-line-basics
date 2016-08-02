@@ -1,0 +1,47 @@
+/*
+  Base CSS
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html  {
+  /* 
+     Allows use of REM at .1rem to 
+     1px conversion rate
+  */
+  font-size: 62.5%;
+  font-family: "helvetica", sans-serif;
+}
+
+body {
+  /* Resetting default value */
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 142, 225);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.page--constraint {
+  width: 96rem; /* 1920px / 2 */
+}
+
+.page--centered {
+  margin: 0 auto;
+}
+
+article img {
+  width: 100%;
+}
