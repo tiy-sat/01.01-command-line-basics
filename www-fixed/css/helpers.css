@@ -1,0 +1,80 @@
+/*
+  Helpers CSS
+*/
+
+/* Alignment */
+
+.textAlign--right {
+  text-align: right;
+}
+
+.textAlign--center {
+  text-align: center;
+}
+
+.verticalAlign--middle {
+  vertical-align: middle;
+}
+
+.verticalAlign--bottom {
+  vertical-align: bottom;
+}
+
+
+/* Borders */
+
+.border__top--light {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgb(233, 233, 233);
+}
+
+
+/* Brand */
+
+.brand {
+  width: 100px;
+  height: 35px;
+}
+
+
+/* Colors */
+
+.backgroundColor--blue {
+  background-color: rgb(0, 141, 223);
+  color: white;
+}
+
+
+/* Display */
+
+.display--block {
+  display: block;
+}
+
+
+/* Links */
+
+.link--primary {
+  color: rgb(166, 166, 166);
+  display: inline-block;
+}
+
+
+/* Text */
+
+.fontSize--medium {
+  font-size: 1.6rem;
+}
+
+.fontSize--large {
+  font-size: 2rem;
+}
+
+.textTransform--uppercase {
+  text-transform: uppercase;
+}
+
+.lineHeight--base {
+  line-height: 3.5rem;
+}
